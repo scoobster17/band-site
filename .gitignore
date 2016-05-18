@@ -1,0 +1,6 @@
+# GIT IGNORE
+
+*.sublime-project
+*.sublime-workspace
+
+node_modules/
