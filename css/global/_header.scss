@@ -1,0 +1,28 @@
+.global-header {
+    text-align:center;
+
+    nav {
+        a {
+            color: $primary-font-colour;
+            display:block;
+            @include font-size($body-font-size);
+            padding:10px;
+        }
+        ul {
+            display:none;
+            position:absolute;
+            width:100%;
+        }
+        &.active {
+            ul {
+                display:block;
+            }
+        }
+    }
+
+    .menu-link {
+        left:0;
+        position: absolute;
+        top:0;
+    }
+}

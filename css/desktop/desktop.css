@@ -1,0 +1,20 @@
+.global-header {
+  overflow: hidden;
+  text-align: left; }
+  .global-header > a {
+    float: left; }
+  .global-header nav ul {
+    overflow: hidden; }
+  .global-header nav li {
+    float: left; }
+  .global-header nav a {
+    color: #fff;
+    display: block;
+    padding: 10px; }
+  .global-header .social-links {
+    float: right; }
+
+.global-footer small {
+  float: right; }
+
+/*# sourceMappingURL=desktop.css.map */

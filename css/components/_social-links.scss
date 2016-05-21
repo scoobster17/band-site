@@ -1,0 +1,11 @@
+.social-links {
+    overflow:hidden;
+    li {
+        float: left;
+    }
+    a {
+        color: $primary-font-colour;
+        display:block;
+        padding:10px;
+    }
+}

@@ -1,0 +1,29 @@
+.global-header {
+    overflow:hidden;
+    text-align:left;
+
+    // brand logo / name
+    > a {
+        float:left;
+    }
+
+    // site nav
+    nav {
+        ul {
+            overflow: hidden;
+        }
+        li {
+            float: left;
+        }
+        a {
+            color: $primary-font-colour;
+            display:block;
+            padding:10px;
+        }
+    }
+
+    // social links
+    .social-links {
+        float:right;
+    }
+}

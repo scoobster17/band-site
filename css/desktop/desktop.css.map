@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAe;EACX,QAAQ,EAAC,MAAM;EACf,UAAU,EAAC,IAAI;EAGf,kBAAI;IACA,KAAK,EAAC,IAAI;EAKV,qBAAG;IACC,QAAQ,EAAE,MAAM;EAEpB,qBAAG;IACC,KAAK,EAAE,IAAI;EAEf,oBAAE;IACE,KAAK,ECbK,IAAe;IDczB,OAAO,EAAC,KAAK;IACb,OAAO,EAAC,IAAI;EAKpB,4BAAc;IACV,KAAK,EAAC,KAAK;;AEzBf,oBAAM;EACF,KAAK,EAAE,KAAK",
+"sources": ["global/_header.scss","../sassConfig/_vars.scss","global/_footer.scss"],
+"names": [],
+"file": "desktop.css"
+}
