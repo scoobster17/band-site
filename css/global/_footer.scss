@@ -1,5 +1,25 @@
 .global-footer {
+    bottom:0;
+    position: absolute;
+    width:100%;
+
+    .newsletter-signup {
+        margin:0 0 2em;
+    }
+
     small {
+        bottom: 0;
         color: $primary-font-colour;
+        @include font-size($body-font-size);
+        padding: 10px;
+        position: absolute;
+        @include text-shadow(0px 0px 7px #000);
+    }
+
+    .copyright {
+        left:0;
+    }
+    .site-author {
+        right:0;
     }
 }

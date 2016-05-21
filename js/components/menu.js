@@ -3,7 +3,16 @@ band.menu = (function() {
             
     // private methods
     var init = function() {
-        // menu click funxtionality
+        
+        var menuTrigger = document.getElementById('menu-trigger');
+        var menu = document.getElementById('menu');
+
+        if (window.addEventListener) {
+            menuTrigger.addEventListener('click', function() {
+                joose.utils.toggleClass(menu, 'hidden-mobile');
+                joose.utils.toggleClass(menuTrigger, 'active');
+            });
+        }
     };
 
     // public methods

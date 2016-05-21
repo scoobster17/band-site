@@ -5,5 +5,9 @@
 @import 'sassConfig/_mixins';
 
 // global styles
+@import 'global/_common';
 @import 'global/_header';
 @import 'global/_footer';
+
+// pages
+@import 'pages/home';

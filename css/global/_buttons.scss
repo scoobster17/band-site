@@ -1,0 +1,12 @@
+.btn {
+    @include box-shadow(0 0 3px rgba(0,0,0,0.7));
+    margin: 10px 0;
+    padding: 10px;
+
+    &-primary {
+        background: $primary-colour;
+        border:0px;
+        @include border-radius(5px);
+        @include font-size($body-font-size);
+    }
+}

@@ -1,3 +1,22 @@
 form {
-    
+    padding:20px;
+    text-align: center;
+}
+label {
+    color: $primary-font-colour;
+    display:block;
+    @include font-size($body-font-size);
+    margin: 10px 0 5px;
+    text-align:left;
+}
+input[type="text"],
+input[type="email"] {
+    border: 1px solid #fff;
+    @include border-radius(5px);
+    @include box-sizing(border-box);
+    padding: 10px;
+    width: 100%;
+}
+input[type="submit"] {
+    width: 100%;
 }

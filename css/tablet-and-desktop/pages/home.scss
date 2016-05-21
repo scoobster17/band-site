@@ -1,0 +1,14 @@
+.page-home {
+    h1 {
+        @include font-size(16);
+        margin: 100px 100px 0;
+        @include text-shadow(7px 7px 20px #000);
+    }
+    main {
+        p {
+            @include font-size(3);
+            margin: 0 100px;
+            @include text-shadow(3px 3px 5px #000);
+        }
+    }
+}

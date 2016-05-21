@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Band Name</title>
     <link rel="stylesheet" type="text/css" href="/css/mobile.css" />
-    <link rel="stylesheet" type="text/css" href="/css/desktop/desktop.css" media="(min-width: 800px)" />
+    <link rel="stylesheet" type="text/css" href="/css/tablet-and-desktop/tablet-and-desktop.css" media="(min-width: 600px)" />
     <link rel="stylesheet" type="text/css" href="/css/pages/home.css" />
 </head>
 <body class="page-home">
@@ -13,11 +13,16 @@
         <header class="global-header">
             <nav>
                 <a href="/">Band Name</a>
-                <a href="#nav" class="menu-link">Site Navigation</a>
-                <ul>
+                <a href="#nav" class="menu-link hidden-desktop" id="menu-trigger">Site Navigation</a>
+                <ul id="menu" class="hidden-mobile">
                     <li>
                         <a href="/about.html">
                             About<span class="visually-hidden"> the band</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/contact.html">
+                            Contact
                         </a>
                     </li>
                 </ul>
@@ -45,16 +50,19 @@
             <p>Upcoming legends in indie rock</p>
         </main>
         <footer class="global-footer">
-            <p>&copy; Band Name</p>
-            <form>
+            <form class="newsletter-signup">
                 <h2>Newsletter</h2>
                 <p>Please enter your details here to receive latest updates about Band Name.</p>
                 <label>Email address:</label>
                 <input type="email" name="email" />
-                <input type="submit" value="Subscribe to newsletter" />
+                <input type="submit" value="Subscribe to newsletter" class="btn btn-primary" />
             </form>
-            <small>Site by <a rel="external" href="http://www.philgibbins.com">Phil Gibbins</a></small>
+            <small class="copyright">&copy; Band Name</small>
+            <small class="site-author">Site by <a rel="external" href="http://www.philgibbins.com">Phil Gibbins</a></small>
         </footer>
     </div>
+
+    <script type="text/javascript" src="/bower_components/joose-utils/js/joose-utils.min.js"></script>
+    <script type="text/javascript" src="/js/components/menu.js"></script>
 </body>
 </html>

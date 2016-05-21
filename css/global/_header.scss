@@ -9,7 +9,7 @@
             padding:10px;
         }
         ul {
-            display:none;
+            background: rgba(255,255,255,0.3);
             position:absolute;
             width:100%;
         }
@@ -23,6 +23,15 @@
     .menu-link {
         left:0;
         position: absolute;
+        top:0;
+        &.active {
+            background: rgba(255,255,255,0.3);
+        }
+    }
+
+    .social-links {
+        position: absolute;
+        right: 0;
         top:0;
     }
 }

@@ -2,3 +2,27 @@
     font-size: #{$font-size * 10}px;
     font-size: #{$font-size}em;
 }
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin box-sizing($type) {
+    -webkit-box-sizing: $type;
+    -moz-box-sizing: $type;
+    box-sizing: $type;
+}
+
+@mixin text-shadow($values) {
+    -webkit-text-shadow: $values;
+    -moz-text-shadow: $values;
+    text-shadow: $values;
+}
+
+@mixin box-shadow($values) {
+    -webkit-box-shadow: $values;
+    -moz-box-shadow: $values;
+    box-shadow: $values;
+}
