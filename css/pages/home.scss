@@ -1,3 +1,8 @@
+@charset "UTF-8";
+
+@import '../sassConfig/_vars';
+@import '../sassConfig/_mixins';
+
 .page-home {
     .container {
         background: url('../../img/bg/140321Rave_Reimoldbw-3.jpg') no-repeat 85% 30%; //http://temple-news.com/arts/spause-indie-band-presents-pleasant-april-fools-day-surprise/

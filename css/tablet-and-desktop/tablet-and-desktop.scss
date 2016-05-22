@@ -1,13 +1,10 @@
 @charset "UTF-8";
 
 // sass setup
-@import 'sassConfig/_vars';
-@import 'sassConfig/_mixins';
+@import '../sassConfig/_vars';
+@import '../sassConfig/_mixins';
 
 // global styles
-@import 'global/_common';
-@import 'global/_header';
-@import 'global/_footer';
-
-// pages
-@import 'pages/home';
+@import 'global-desktop/_common';
+@import 'global-desktop/_header';
+@import 'global-desktop/_footer';

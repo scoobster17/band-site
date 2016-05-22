@@ -1,0 +1,15 @@
+.page-home h1 {
+  font-size: 160px;
+  font-size: 16em;
+  margin: 100px 100px 0;
+  -webkit-text-shadow: 7px 7px 20px #000;
+  -moz-text-shadow: 7px 7px 20px #000;
+  text-shadow: 7px 7px 20px #000; }
+
+.page-home main p {
+  font-size: 30px;
+  font-size: 3em;
+  margin: 0 100px;
+  -webkit-text-shadow: 3px 3px 5px #000;
+  -moz-text-shadow: 3px 3px 5px #000;
+  text-shadow: 3px 3px 5px #000; }
