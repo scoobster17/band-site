@@ -2,6 +2,10 @@
     overflow:hidden;
     li {
         float: left;
+	    &:nth-child(2) {
+	    	position:relative;
+	    	top:-8px;
+	    }
     }
     a {
         color: $primary-font-colour;
