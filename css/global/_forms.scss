@@ -1,4 +1,5 @@
 form {
+    max-width: 400px;
     padding:20px;
     text-align: center;
 }
@@ -16,6 +17,13 @@ input[type="email"] {
     @include box-sizing(border-box);
     padding: 10px;
     width: 100%;
+}
+textarea {
+    @include border-radius(5px);
+    @include box-sizing(border-box);
+    min-height: 100px;
+    padding:10px;
+    width:100%;
 }
 input[type="submit"] {
     width: 100%;

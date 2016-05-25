@@ -10,10 +10,24 @@
     // site nav
     nav {
         ul {
+            background: transparent;
+            left: 50%;
+            margin-left: -163px;
             overflow: hidden;
+            text-align: center;
+            top:0;
+            width: auto;
         }
         li {
-            float: left;
+            display: inline-block;
+        }
+        a {
+            padding: 20px 30px;
+            &:hover,
+            &:focus,
+            &:active {
+                background: rgba(255, 255, 255, 0.3);
+            }
         }
     }
 }

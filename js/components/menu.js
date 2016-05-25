@@ -8,7 +8,8 @@ band.menu = (function() {
         var menu = document.getElementById('menu');
 
         if (window.addEventListener) {
-            menuTrigger.addEventListener('click', function() {
+            menuTrigger.addEventListener('click', function(e) {
+                e.preventDefault();
                 joose.utils.toggleClass(menu, 'hidden-mobile');
                 joose.utils.toggleClass(menuTrigger, 'active');
             });

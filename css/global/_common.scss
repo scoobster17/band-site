@@ -1,4 +1,5 @@
 body {
+    background: #000;
     font-family: $primary-font-family;
     font-size: 62.5%;
 }
@@ -9,6 +10,7 @@ h1 {
     color: $primary-font-colour;
     @include font-size($page-heading-font-size);
     line-height: 1.5;
+    margin:0 0 20px;
 }
 h2 {
     color: $primary-font-colour;
@@ -19,6 +21,9 @@ p {
     color: $primary-font-colour;
     @include font-size($body-font-size);
     line-height: 1.5;
+    + p {
+        margin-top: 1.5em;
+    }
 }
 a {
     color: inherit;
@@ -30,9 +35,9 @@ a {
     }
 }
 .hidden {
-    display:none;
+    visibility: hidden;
     &-mobile {
-        display:none !important;
+        visibility: hidden !important;
     }
 }
 .visually-hidden {

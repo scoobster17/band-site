@@ -1,8 +1,11 @@
 h1 {
   line-height: 1.1; }
 
+.hidden-mobile {
+  visibility: visible !important; }
+
 .hidden-desktop {
-  display: none !important; }
+  visibility: hidden !important; }
 
 .global-header {
   overflow: hidden;
@@ -10,9 +13,19 @@ h1 {
   .global-header > a {
     float: left; }
   .global-header nav ul {
-    overflow: hidden; }
+    background: transparent;
+    left: 50%;
+    margin-left: -163px;
+    overflow: hidden;
+    text-align: center;
+    top: 0;
+    width: auto; }
   .global-header nav li {
-    float: left; }
+    display: inline-block; }
+  .global-header nav a {
+    padding: 20px 30px; }
+    .global-header nav a:hover, .global-header nav a:focus, .global-header nav a:active {
+      background: rgba(255, 255, 255, 0.3); }
 
 .global-footer .newsletter-signup {
   margin: 0 auto;
