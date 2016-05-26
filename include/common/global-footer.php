@@ -7,5 +7,5 @@
         <input type="submit" value="Subscribe to newsletter" class="btn btn-primary" />
     </form>
     <small class="copyright">&copy; Band Name</small>
-    <small class="site-author">Site by <a rel="external" href="http://www.philgibbins.com">Phil Gibbins</a></small>
+    <small class="site-author">Site by <a rel="external" href="http://www.philgibbins.com" class="shown-link">Phil Gibbins</a></small>
 </footer>

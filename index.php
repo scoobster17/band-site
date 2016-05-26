@@ -15,6 +15,9 @@
             <h1>Band Name</h1>
             <p>Upcoming legends in indie rock</p>
         </main>
+        <!--<aside>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/F9CRooinD5U" frameborder="0" allowfullscreen></iframe>
+        </aside>-->
         <?php include $serverRoot.'include/common/global-footer.php'; ?>
     </div>
     <?php include $serverRoot.'include/common/global-scripts.php'; ?>
