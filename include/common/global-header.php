@@ -9,6 +9,11 @@
                 </a>
             </li>
             <li>
+                <a href="/news/events.php">
+                    Events
+                </a>
+            </li>
+            <li>
                 <a href="/about/">
                     About<span class="visually-hidden"> the band</span>
                 </a>
