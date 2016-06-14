@@ -23,6 +23,11 @@
                     Contact
                 </a>
             </li>
+            <li>
+                <a href="https://lucabrasipunkrock.bandcamp.com/">
+                    Shop
+                </a>
+            </li>
         </ul>
     </nav>
     <ul class="social-links">
