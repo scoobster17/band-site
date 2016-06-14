@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/css/tablet-and-desktop/pages-desktop/home.css" media="(min-width: 600px)" />
 </head>
 <body class="page-home">
+    <?php include $serverRoot.'include/common/analytics.php'; ?>
     <div class="container">
         <?php include $serverRoot.'include/common/global-header.php'; ?>
         <main>

@@ -7,6 +7,7 @@
     <?php include $serverRoot.'include/common/global-styles.php'; ?>
 </head>
 <body class="page-about">
+    <?php include $serverRoot.'include/common/analytics.php'; ?>
     <div class="container">
         <?php include $serverRoot.'include/common/global-header.php'; ?>
         <main>
