@@ -12,7 +12,7 @@
 <?php include $serverRoot.'include/common/html-tag.php'; ?>
 <head>
     <?php include $serverRoot.'include/common/global-meta-info.php'; ?>
-    <title>Events | Band Name</title>
+    <title>Events | <?php echo $bandName; ?></title>
     <?php include $serverRoot.'include/common/global-styles.php'; ?>
 </head>
 <body class="page-events">

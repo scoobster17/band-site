@@ -42,4 +42,6 @@
     // declare the js assets file directory
     $jsDevFileDir = $rootFileDir.'js/';
 
+    // band name
+    $bandName = 'Band name here';
 ?>
