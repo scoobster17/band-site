@@ -1,0 +1,18 @@
+## .gitattributes ##
+
+# by default auto-convert line endings
+* text=auto         
+
+# treat HTML and CSS files as text
+*.html text         
+*.css  text
+
+# treat image files as binary
+*.jpg binary        
+*.png binary
+
+# keep shell scripts in Unix format
+*.sh  text eol=lf
+
+# batch files in Windows format
+*.bat text eol=crlf

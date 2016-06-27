@@ -46,12 +46,12 @@
                 <img src="/img/icons/instagram.png" alt="Instagram" width="29" />
             </a>
         </li>
-        <li class="live-stream">
-            <h2 class="visually-hidden">Watch the band live on Periscope!</h2>
-            <script>window.twttr=function(t,e,r){var n,i=t.getElementsByTagName(e)[0],w=window.twttr||{};return t.getElementById(r)?w:(n=t.createElement(e),n.id=r,n.src="https://platform.twitter.com/widgets.js",i.parentNode.insertBefore(n,i),w._e=[],w.ready=function(t){w._e.push(t)},w)}(document,"script","twitter-wjs")</script>
-            <a href="https://www.periscope.tv/scoobster17" class="periscope-on-air" data-size="large">
-                @Scoobster17
-            </a>
-        </li>
     </ul>
+    <section class="live-stream">
+        <h2 class="visually-hidden">Watch the band live on Periscope!</h2>
+        <script>window.twttr=function(t,e,r){var n,i=t.getElementsByTagName(e)[0],w=window.twttr||{};return t.getElementById(r)?w:(n=t.createElement(e),n.id=r,n.src="https://platform.twitter.com/widgets.js",i.parentNode.insertBefore(n,i),w._e=[],w.ready=function(t){w._e.push(t)},w)}(document,"script","twitter-wjs")</script>
+        <a href="https://www.periscope.tv/scoobster17" class="periscope-on-air" data-size="large">
+            @Scoobster17
+        </a>
+    </section>
 </header>

@@ -29,6 +29,10 @@ h1 {
     padding: 20px 30px; }
     .global-header nav a:hover, .global-header nav a:focus, .global-header nav a:active {
       background: rgba(255, 255, 255, 0.3); }
+  .global-header .live-stream {
+    left: 10px;
+    position: absolute;
+    top: 10px; }
 
 .global-footer .newsletter-signup {
   margin: 0 auto;
